@@ -6,9 +6,9 @@ authors = ["Eugene Morozov <jmv@emorozov.net>"]
 
 [tool.poetry.dependencies]
 python = "^3.11"
-Django = "^4.1"
-ipython = "^8.11.0"
-django-extensions = "^3.2.1"
+Django = "^4.2.3"
+ipython = "^8.14.0"
+django-extensions = "^3.2.3"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
