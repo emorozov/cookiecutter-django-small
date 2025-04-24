@@ -1,15 +1,12 @@
-[tool.poetry]
+[project]
 name = "{{ cookiecutter.project_slug }}"
-version = "0.1.0"
-description = ""
 authors = ["Eugene Morozov <jmv@emorozov.net>"]
-
-[tool.poetry.dependencies]
-python = "^3.11"
-Django = "^4.2.3"
-ipython = "^8.14.0"
-django-extensions = "^3.2.3"
-
-[build-system]
-requires = ["poetry-core>=1.0.0"]
-build-backend = "poetry.core.masonry.api"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "django>=5.2",
+    "django-extensions>=4.1",
+    "ipython>=9.1.0",
+]
